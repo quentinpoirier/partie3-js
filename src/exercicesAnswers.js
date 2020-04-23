@@ -20,61 +20,83 @@ let concatenateSentences = function (firstSentence, secondSentence) {
 let displayFifthCharacter = function (sentence) {
   console.log(sentence);
   console.log("Le cinquième caractère est '" + sentence.charAt(4) + "'");
-  return `Le cinquième caractère est '${sentence.charAt(4)}'`;
+  return `${sentence.charAt(4)}`;
 }
 
 //Exercice 5 : Afficher les 9 premiers caractère.
 let displayFirstNineCharacters = function (sentence) {
-  return 'A compléter';
+  console.log(sentence);
+  console.log(sentence.substring(0,9));
+  return `${sentence.substring(0,9)}`;
 }
 
 //Exercice 6 : Mettre en majuscule la chaîne.
 let upperTheSentence = function (sentence) {
-  return 'A compléter';
+  console.log(sentence);
+  console.log(sentence.toUpperCase());
+  return `${sentence.toUpperCase()}`;
 }
 
 //Exercice 7 : Mettre en minuscule la chaîne.
 let lowerTheSentence = function (sentence) {
-  return 'A compléter';
+  console.log(sentence);
+  console.log(sentence.toLowerCase());
+  return `${sentence.toLowerCase()}`;
 }
 
 //Exercice 8 : Supprimer les espaces avant et après la chaîne.
 let removeSpaces = function (sentence) {
-  return 'A compléter';
+  console.log(sentence);
+  console.log(sentence.trim());
+  return `${sentence.trim()}`;
 }
 
 //Exercice 9 : Afficher true si le paramètre d'entrée de la fonction est de type *string*.
 let isString = function (sentence) {
+  console.log(sentence);
   return 'A compléter';
 }
 
 //Exercice 10 : Afficher l'extension du fichier.
 let displayExtension = function (fileName) {
-  return 'A compléter';
+  console.log(fileName);
+  console.log(fileName.slice(15) );
+  return (fileName.slice(15) );
 }
 
 //Exercice 11 : Compter le nombre d'espace dans la chaîne.
 let countSpaces = function (sentence) {
-  return 'A compléter';
+  console.log(sentence);
+  console.log(sentence.split(' ').length - 1);
+  return (sentence.split(' ').length - 1);
 }
 
 //Exercice 12 : Inverser une chaîne de caractères.
 let invertSentence = function (sentence) {
-  return 'A compléter';
+  console.log(sentence);
+  console.log(sentence.split('').reverse().join(''));
+  return (sentence.split('').reverse().join(''));
 }
 
 //Exercice 13 : Chercher si dans la chaîne de caractère se trouve "La Manu".
 let searchInSentence = function (sentence) {
+let searchTerm = 'La Manu';
+  console.log(sentence);
+  console.log();
   return 'A compléter';
 }
 
 //Exercice 14 : Afficher la valeur absolue d'un nombre.
 let displayAbsoluteValue = function (number) {
-  return 'A compléter';
+  console.log(number);
+  console.log(Math.abs(number));
+  return (Math.abs(number));
 }
 
 //Exercice 15 : Afficher les valeurs absolues de plusieurs nombres.
 let displayAbsoluteValues = function (numbersArray) {
+  console.log(numbersArray);
+  console.log(Math.abs(numbersArray));
   return 'A compléter';
 }
 
